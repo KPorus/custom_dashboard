@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.link:focus.link-body{
+  background-color: rgba(230, 20, 20, 0.607);
+  color: white;
+  transition: all linear 3000ms ease-in-out;
+  -webkit-transition: all linear 3000ms ease-in-out;
+  -moz-transition: all linear 3000ms ease-in-out;
+  -ms-transition: all linear 3000ms ease-in-out;
+  -o-transition: all linear 3000ms ease-in-out;
+}

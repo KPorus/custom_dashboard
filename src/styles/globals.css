@@ -27,7 +27,7 @@ body {
 }
 
 .link:focus.link-body{
-  background-color: rgba(230, 20, 20, 0.607);
+  background-color: rgba(184, 11, 11, 0.607);
   color: white;
   transition: all linear 3000ms ease-in-out;
   -webkit-transition: all linear 3000ms ease-in-out;

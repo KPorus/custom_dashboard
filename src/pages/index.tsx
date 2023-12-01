@@ -1,11 +1,11 @@
-import SideBar from "@/components/Layout/SideBar/SideBar";
 import { ReactNode } from "react";
-
+import dynamic from "next/dynamic";
+const SideBar = dynamic(() => import("@/components/Layout/SideBar/SideBar"))
 
 export default function Home() {
   return (
    <main>
-    <div>Home</div>
+    <div className="white">Home</div>
    </main>
   )
 }
